@@ -10,12 +10,14 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
+        Verificador num = new Verificador();
 
         boolean i = true;
 
         while(i){
-            System.out.println("Digite um número inteiro: ");
 
+            System.out.println("Digite um número inteiro: ");
+            num.parouimpar(scanner.nextInt());
             }
 
     }
