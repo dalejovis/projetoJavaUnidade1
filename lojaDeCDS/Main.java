@@ -1,4 +1,5 @@
 package projetoJavaUnidade1.lojaDeCDS;
+import java.util.Scanner;
 
 /*
 Em uma loja de CD 's existem apenas quatro tipos de preços que estão associados a cores. Assim os CD´s que ficam na loja
@@ -13,6 +14,19 @@ vermelho = 40,00
 
 public class Main {
     public static void main(String[] args) {
+        Scanner leia = new Scanner(System.in);
+        LojaDeCDs cd = new LojaDeCDs();
+        boolean i = true;
+
+        while(i){
+            System.out.println("Informe a cor referente ao preço do CD: ");
+            cd.informaPreco(leia.next());
+            if(cd.getCor() != null){
+                i = false;
+            }
+
+        }
+
 
     }
 }
