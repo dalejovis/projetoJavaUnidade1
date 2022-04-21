@@ -1,4 +1,5 @@
-package projetoJavaUnidade1.numeroInteiro;
+package br.projetoJavaUnidade1.projetoJavaUnidade1.numeroInteiro;
+import java.util.Scanner;
 
 /*
 Desenvolva um algoritmo capaz de verificar se os números inteiros, dados como entrada, são  par ou ímpar.
@@ -7,6 +8,15 @@ Desenvolva um algoritmo capaz de verificar se os números inteiros, dados como e
 
 public class Main {
     public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        boolean i = true;
+
+        while(i){
+            System.out.println("Digite um número inteiro: ");
+
+            }
 
     }
 }
