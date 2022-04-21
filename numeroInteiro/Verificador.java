@@ -1,32 +1,55 @@
-package br.projetoJavaUnidade1.projetoJavaUnidade1.numeroInteiro;
+package projetoJavaUnidade1.numeroInteiro;
 
 public class Verificador {
 
     private int numero;
+    private int resposta;
+    public boolean i;
 
-    public int getNumero() {
+    public int getNumero(){
         return numero;
     }
 
-    public void setNumero(int numero) {
+    public void setNumero(int numero){
         this.numero = numero;
     }
 
-    public boolean parouimpar(int numero){
+    public int getResposta() {
+        return resposta;
+    }
+
+    public void setResposta(int resposta) {
+        this.resposta = resposta;
+    }
+
+    public boolean getI() {
+        return i;
+    }
+
+    public void setI(boolean i) {
+        this.i = i;
+    }
+
+    public void parouimpar(int numero){
 
         if (numero % 2 == 0){
             System.out.println("O número informado é par!");
-            return true;
         }
 
         else if (numero % 2 != 0){
             System.out.println("O número informado é ímpar!");
-            return true;
         }
-
-        return false;
     }
 
-
-
+    public boolean saida (int resposta){
+        switch (resposta){
+            case 1:
+                return true;
+            case 2:
+                return false;
+            default:
+                System.out.println("Entrada Inválida!");
+                return true;
+        }
+    }
 }

@@ -1,4 +1,4 @@
-package br.projetoJavaUnidade1.projetoJavaUnidade1.numeroInteiro;
+package projetoJavaUnidade1.numeroInteiro;
 import java.util.Scanner;
 
 /*
@@ -12,13 +12,15 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         Verificador num = new Verificador();
 
-        boolean i = true;
-
-        while(i){
+        num.setI(true);
+        while(num.getI()){
 
             System.out.println("Digite um número inteiro: ");
             num.parouimpar(scanner.nextInt());
-            }
+            System.out.println("Deseja continuar?\n(1) Sim, esse programa tá muito bom!\n(2) Não, chega!\n> ");
+            num.setResposta(scanner.nextInt());
+            num.setI(num.saida(num.getResposta()));
+        }
 
     }
 }
