@@ -5,6 +5,7 @@ public class Verificador {
     private int numero;
     private int resposta;
     public boolean i;
+    public boolean j;
 
     public int getNumero(){
         return numero;
@@ -30,8 +31,12 @@ public class Verificador {
         this.i = i;
     }
 
+    public boolean getJ() { return j; }
+
+    public void setJ(boolean j) { this.j = j; }
+
     /*Criando um parâmetro para informar se o número informado
-    é par ou é ímpar.*/
+        é par ou é ímpar.*/
     public void parouimpar(int numero){
 
         if (numero % 2 == 0){
@@ -47,11 +52,14 @@ public class Verificador {
     public boolean saida (int resposta){
         switch (resposta){
             case 1:
+                setJ(false);
                 return true;
             case 2:
+                setJ(false);
                 return false;
             default:
                 System.out.println("Entrada Inválida!");
+                setJ(true);
                 return true;
         }
     }

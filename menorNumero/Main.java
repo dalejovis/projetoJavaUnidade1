@@ -16,13 +16,13 @@ public class Main {
 
 
         // informando os numeros
-        System.out.println("Informe o primeiro número");
+        System.out.print("Informe o primeiro número: ");
         calc.setNumero1(input.nextInt());
 
-        System.out.println("Informe o segundo número");
+        System.out.print("Informe o segundo número: ");
         calc.setNumero2(input.nextInt());
 
-        System.out.println("Informe o terceiro número");
+        System.out.print("Informe o terceiro número: ");
         calc.setNumero3(input.nextInt());
 
 
