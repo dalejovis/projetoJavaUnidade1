@@ -18,6 +18,8 @@ public class Main {
         LojaDeCDs cd = new LojaDeCDs();
         boolean i = true;
 
+        /*O while vai ficar pedindo para informar a cor até o usuário
+         informar uma cor válida.*/
         while(i){
             System.out.println("Informe a cor referente ao preço do CD: ");
             cd.informaPreco(leia.next());

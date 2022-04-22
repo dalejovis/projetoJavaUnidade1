@@ -12,6 +12,7 @@ public class LojaDeCDs {
         this.cor = cor;
     }
 
+    //Usando switch para utilizar os cases referentes as cores e seus respectivos valores.
     public void informaPreco(String cor){
         switch (cor) {
             case "verde":

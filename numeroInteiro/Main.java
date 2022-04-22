@@ -13,6 +13,8 @@ public class Main {
         Verificador num = new Verificador();
 
         num.setI(true);
+
+        /*O while vai funcionar até o usuário digitar o número 2*/
         while(num.getI()){
 
             System.out.println("Digite um número inteiro: ");

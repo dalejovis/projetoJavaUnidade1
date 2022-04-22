@@ -1,5 +1,3 @@
-//package Projeto.UserssantoIdeaProjectsUNIESP.POOsrcProjetoprojetoJavaUnidade1.menorNumero;
-//package br.projetoJavaUnidade1.projetoJavaUnidade1.menorNumero;
 package projetoJavaUnidade1.menorNumero;
 
 public class Calculadora {
@@ -32,6 +30,7 @@ public class Calculadora {
         this.numero3 = numero3;
     }
 
+    //Criando um parâmetro para o menor e maior número.
     public void menornumero(int numero1, int numero2, int numero3) {
 
         if (numero1 < numero2 && numero1 < numero3){

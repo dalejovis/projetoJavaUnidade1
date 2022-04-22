@@ -30,6 +30,8 @@ public class Verificador {
         this.i = i;
     }
 
+    /*Criando um parâmetro para informar se o número informado
+    é par ou é ímpar.*/
     public void parouimpar(int numero){
 
         if (numero % 2 == 0){
@@ -41,6 +43,7 @@ public class Verificador {
         }
     }
 
+    /*Utilizando switch para obter uma resposta e sair do while*/
     public boolean saida (int resposta){
         switch (resposta){
             case 1:
