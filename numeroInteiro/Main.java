@@ -2,6 +2,15 @@ package projetoJavaUnidade1.numeroInteiro;
 import java.util.Scanner;
 
 /*
+
+Integrantes do Grupo:
+- Anna Lyvia Santos de Medeiros
+- João Vitor Morais Costa
+- Lucas Correia Lucena de Souza Ribeiro
+- Mateus Correia Pereira Gomes
+
+Enunciado:
+
 Desenvolva um algoritmo capaz de verificar se os números inteiros, dados como entrada, são  par ou ímpar.
 */
 
