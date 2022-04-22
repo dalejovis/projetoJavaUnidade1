@@ -1,8 +1,26 @@
-//package Projeto.UserssantoIdeaProjectsUNIESP.POOsrcProjetoprojetoJavaUnidade1.menorNumero;
-package br.projetoJavaUnidade1.projetoJavaUnidade1.menorNumero;
+package br.projetoJavaUnidade1.projetoJavaUnidade1.menorNumeroEstruturado;
 
-public class Calculadora {
-    public void menornumero(int numero1, int numero2, int numero3) {
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        int numero1;
+        int numero2;
+        int numero3;
+
+        Scanner input = new Scanner(System.in);
+
+        // informe os numeros
+        System.out.println("Informe o primeiro número");
+        numero1 = input.nextInt();
+
+        System.out.println("Informe o segundo número");
+        numero2 = input.nextInt();
+
+        System.out.println("Informe o terceiro número");
+        numero3 = input.nextInt();
 
         if (numero1 < numero2 && numero1 < numero3){
             System.out.println("O menor número é: " + numero1);
@@ -31,5 +49,6 @@ public class Calculadora {
         else if (numero1 == numero2 && numero2 == numero3){
             System.out.println("Os 3 números são iguais!");
         }
+
     }
 }
