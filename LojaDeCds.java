@@ -1,4 +1,5 @@
-package br.projetoJavaUnidade1.projetoJavaUnidade1;
+package projetoJavaUnidade1;
 
 public class LojaDeCds {
+
 }
