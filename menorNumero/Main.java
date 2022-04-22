@@ -1,10 +1,4 @@
-//package projetoJavaUnidade1.menorNumero;
-
-//package Projeto.UserssantoIdeaProjectsUNIESP.POOsrcProjetoprojetoJavaUnidade1.menorNumero;
-
-////package Projeto.UserssantoIdeaProjectsUNIESP.POOsrcProjetoprojetoJavaUnidade1.menorNumero;
 package projetoJavaUnidade1.menorNumero;
-//package br.projetoJavaUnidade1.projetoJavaUnidade1.menorNumero;
 import java.util.Scanner;
 /*
 Desenvolva um algoritmo capaz de encontrar o menor dentre 3 números inteiros quaisquer dados pelo teclado.
